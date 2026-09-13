@@ -4,12 +4,12 @@ cask "atct" do
 
   on_macos do
     on_intel do
-      sha256 "8009f13e62dab728f84522b8c0e8fb9842b393d3ab65bac8b2ca72fa860cd8d5"
+      sha256 "f6c89703184694f926fa13518d2862d066faa44ad90b38fe4ee56fa3b7839942"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/michiomochi/atct"
     end
     on_arm do
-      sha256 "12c010ec81e5b3c3b22282639b5f8b1fe1619aebf3259e95aebb64a0cd5dfc50"
+      sha256 "fd2d8fdf51dd4e7adc3734160f4d94eb8622aea5fcbd97785bba8cc7bc7a0850"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/michiomochi/atct"
     end
@@ -17,12 +17,12 @@ cask "atct" do
 
   on_linux do
     on_intel do
-      sha256 "1d99a76742754a4c736511f394a1c3238253e44e2847baea5d7ca43a16f06557"
+      sha256 "a89ef5d263c2341956967665eb42396d08ae5a335a3eed6ee6eb7324d796184c"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_linux_amd64.tar.gz",
         verified: "github.com/michiomochi/atct"
     end
     on_arm do
-      sha256 "d03cc10bfc8a591a691ab3d5ad6fd90a0b0f860f0284df8f62b3f288dc4669a8"
+      sha256 "a1e7f713c6e0605bb1abbe539ef42277bf49568d3ee1d4ff620e64fe884ffb60"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_linux_arm64.tar.gz",
         verified: "github.com/michiomochi/atct"
     end
