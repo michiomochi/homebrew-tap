@@ -5,26 +5,26 @@ cask "atct" do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/atct-mcp"]
   end
 
-  version "0.63.12"
+  version "0.63.13"
 
   on_macos do
     on_intel do
-      sha256 "08718d03dc7ecb2ff359c25b4ce47d1a74aa227a1e428cf0bc47c3f079b5123c"
+      sha256 "3906affacc970f09653939fa645a5e75d0df4fb4e66d2368772635fc7df722b6"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ab6cfea1cee122da21438ef284f2f7c2150adb10d280e2a955ca62f91bd10cb0"
+      sha256 "ed09d5258dc6e2d7463480f144930c3cd325ed523e8fdf9b7f0c6572a1ad8507"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c0ea8f9f575f10eb79d12ce2f038f84c9133220465618910bd94c29281d2f65c"
+      sha256 "be19817771e0703b9a090c167207c0d42e400ec46c9546ac3a87dc1e62285b28"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ca3adc0a271253856bab69970f41108f9cc3d5c137df2076c8b224474122ed04"
+      sha256 "19a60a96286a6bc484c0d60509d32857a6fa11a54a248298bf68da49d25a0bdb"
       url "https://github.com/michiomochi/atct/releases/download/v#{version}/atct_#{version}_linux_arm64.tar.gz"
     end
   end
